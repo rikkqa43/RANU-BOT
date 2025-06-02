@@ -1,5 +1,5 @@
-const { readEnv } = require("../lib/database");
 const { cmd, commands } = require("../command");
+const config = reqiure('../config');
 
 cmd(
   {
@@ -40,7 +40,6 @@ cmd(
     }
   ) => {
     try {
-      const config = await readEnv();
       let menu = {
         main: "",
         download: "",
