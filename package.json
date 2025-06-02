@@ -27,6 +27,6 @@
     "mongoose": "^8.15.1",
     "fb-downloader-scrapper": "^2.0.0",
     "canvas": "^3.0.1",
-    " @vreden/youtube_scraper": "^1.2.7"
+    "@vreden/youtube_scraper": "^1.2.7"
   }
 }
