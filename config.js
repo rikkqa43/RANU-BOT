@@ -9,4 +9,9 @@ module.exports = {
   SESSION_ID: process.env.SESSION_ID || "Enter your session ID",
   OWNER_NUM: process.env.OWNER_NUM || "9470xxxxxxx",
   PREFIX: process.env.PREFIX || ".",
+  ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/nMXpJFxD/jpg.jpg",
+  ALIVE_MSG: process.env.ALIVE_MSG || "Hello , I am 𝚁𝙰𝙽𝚄-𝙼𝙳. I am alive now!!\n\n🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝚁_𝙰_𝙽_𝙳_𝚄_𝙻_𝙰🥶",
+  AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
+  MODE: process.env.MODE || "public",
 };
+
