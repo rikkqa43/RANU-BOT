@@ -1,6 +1,5 @@
-const { readEnv } = require("../lib/database");
-const { cmd, commands } = require("../command");
-
+const { cmd, commands } = require('../command')
+const config = require('../config');
 cmd(
   {
     pattern: "menu",
@@ -39,7 +38,6 @@ cmd(
     }
   ) => {
     try {
-      const config = await readEnv();
       let menu = {
         main: "",
         download: "",
@@ -84,15 +82,15 @@ ${menu.group}
 ${menu.search}
 
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
+🥶𝐌𝐚𝐝𝐞 𝐛𝐲 R_A_N_D_U_L🥶
 
-> ROBIN MENU MSG
+> RANU-MD MENU MSG
 `;
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://i.ibb.co/nMXpJFxD/jpg.jpg",
           },
           caption: madeMenu,
         },
