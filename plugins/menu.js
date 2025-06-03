@@ -1,5 +1,5 @@
-const { cmd, commands } = require("../command")
-const config = reqiure("../config");
+const { cmd, commands } = require('../command')
+const config = reqiure('../config');
 
 cmd(
   {
