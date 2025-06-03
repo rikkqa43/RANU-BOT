@@ -37,7 +37,7 @@ cmd({
                 from,
                 { 
                     image: { url: imageUrl },
-                    caption: `📷 Result for: ${query}\n> © Powered by 𝚁𝙰𝙽𝚄-𝙴𝚇𝙴`
+                    caption: `📷 Result for: ${query}\n> © Powered by 𝚁𝙰𝙽𝚄-𝙼𝙳`
                 },
                 { quoted: mek }
             );
