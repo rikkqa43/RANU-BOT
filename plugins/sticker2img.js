@@ -7,6 +7,7 @@ cmd(
   {
     pattern: "toimg",
     alias: ["img", "photo"],
+    react: "🚀",
     desc: "Convert a sticker to an image",
     category: "utility",
     filename: __filename,
@@ -53,8 +54,8 @@ cmd(
 
       // Convert the sticker buffer to an image (using Sticker class)
       const sticker = new Sticker(stickerBuffer, {
-        pack: "𝐑_𝐎_𝐁_𝐈_𝐍",
-        author: "𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋",
+        pack: "𝚁_𝙰_𝙽_𝚄",
+        author: "𝚁_𝙰_𝙽_𝙳_𝚄_𝙻_𝙰",
         type: "FULL", // This may not be needed, but ensures we're using the full sticker format
         quality: 100, // Quality of the output image (0-100)
       });
@@ -67,7 +68,7 @@ cmd(
         from,
         {
           image: imageBuffer,
-          caption: "Here is your converted image!\n\n𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋",
+          caption: "Here is your converted image!\n\n𝐌𝐚𝐝𝐞 𝐛𝐲 𝚁_𝙰_𝙽_𝙳_𝚄_𝙻_𝙰",
         },
         { quoted: mek }
       );
