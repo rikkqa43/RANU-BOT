@@ -30,6 +30,7 @@
     "canvas": "^3.0.1",
     "@vreden/youtube_scraper": "^1.2.7",
     "wa-sticker-formatter": "^4.4.4",
-    "google-tts-api": "^2.0.2"
+    "google-tts-api": "^2.0.2",
+    "@vitalets/google-translate-api": "9.2.1"
   }
 }
