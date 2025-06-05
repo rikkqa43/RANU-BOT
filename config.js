@@ -18,5 +18,7 @@ module.exports = {
   AUTO_REPLY: process.env.AUTO_REPLY || "true",
   GEMINI_API_KEY: process.env.GEMINI_API_KEY || "AIzaSyACBTtTYTuODdAiJIwVkUYUr5QlvHL_W14",
   MOVIE_API_KEY: process.env.MOVIE_API_KEY || "sky|59fc0195c2954f8123a2b3b0063050299b4b3a62",
+  OWNER_NUMBER: process.env.OWNER_NUMBER || "+94783462955",
+  OWNER_NAME: process.env.OWNER_NAME || "M.R RANDUL",
 };
 
