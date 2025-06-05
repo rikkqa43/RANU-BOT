@@ -6,7 +6,7 @@ function convertToBool(text, fault = "true") {
   return text === fault ? true : false;
 }
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || "uFUXgKIC#-UU8xxy0romYD6hGCvqxaQ7x8l8T2O9eXgq2dxqLMsA",
+  SESSION_ID: process.env.SESSION_ID || "nI1h2bDB#sdUxXbTeZKsQFtv9sqbe7xBGXG69yC5i_m-jMlHMPrY",
   OWNER_NUM: process.env.OWNER_NUM || "94783462955",
   PREFIX: process.env.PREFIX || ".",
   ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/nMXpJFxD/jpg.jpg",
@@ -20,5 +20,8 @@ module.exports = {
   MOVIE_API_KEY: process.env.MOVIE_API_KEY || "sky|59fc0195c2954f8123a2b3b0063050299b4b3a62",
   OWNER_NUMBER: process.env.OWNER_NUMBER || "+94783462955",
   OWNER_NAME: process.env.OWNER_NAME || "M.R RANDUL",
+  BOT_NAME: process.env.BOT_NAME || "PODDA-MD",
+  DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ＲＡＮＵ-ＭＤ*",
+  
 };
 
