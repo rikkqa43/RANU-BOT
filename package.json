@@ -35,6 +35,7 @@
     "@vitalets/google-translate-api": "9.2.1",
     "ruhend-scraper" : "8.0.3",
     "@mrnima/tiktok-downloader":"1.0.0",
+    "cheerio": "^1.0.0-rc.12",
     "@mrnima/facebook-downloader":"1.0.0"
   }
 }
