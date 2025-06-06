@@ -36,6 +36,7 @@
     "ruhend-scraper" : "8.0.3",
     "@mrnima/tiktok-downloader":"1.0.0",
     "cheerio": "^1.0.0-rc.12",
-    "@mrnima/facebook-downloader":"1.0.0"
+    "@mrnima/facebook-downloader":"1.0.0",
+    "xml2js": "0.6.2"
   }
 }
